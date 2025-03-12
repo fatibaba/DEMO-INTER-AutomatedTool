@@ -69,12 +69,22 @@ For steps 1&2:
 3. **Definition Matching:**
 Compare class definitions using automated matching.
 
-For step 3:
+  For step 3:
+  - Provide the ontology you wish to search through 
+  - Choose to load the ontology file either via a URL or a local file path.
+  - Provide the base IRI for the main ontology to be searched through.
+  - Choose to either upload a CSV file with multiple target classes or provide only one target class you wish to find matches for
+    - Create a CSV file with three columns to provide a list of target classes 
+      | Label | IRI |Definition|
+      |-----|---|----------|
+      |     |   |         |
+    - Provide the path to the CSV file containing your target classes
 
-- Choose to load your ontology either via a URL or a local file path.
-- Provide the path to the CSV file containing your target classes and the base IRI.
-- The tool will extract class definitions, perform the matching, and display the results in a table.
-- A download link for a CSV file with the results will be provided at the end.
+      OR
+      
+    - Provide one target class information (IRI, Label, and Definition) when prompted
+      
+  - The tool will extract class definitions, perform the matching, and display the results in a table.
 
 ### **2️⃣ Running in Jupyter Notebook (Locally)**
 
@@ -145,7 +155,7 @@ Confirm that your CSV file includes the correct headers: IRI, Label, and Definit
 - Enhanced visualization of ontology relationships.
 
 ## **📜 License**
-This project is licensed under the APACHE2.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the APACHE License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## **💬 Contact**
 If you have any questions or need assistance, please reach out at [fatibaba@gmail.com].
