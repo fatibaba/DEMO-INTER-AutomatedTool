@@ -157,10 +157,12 @@ Verify that your ontology file is in a valid RDF/XML format (e.g., .rdf, .owl, o
 Confirm that your CSV file includes the correct headers: IRI, Label, and Definition. If using Excel, save your file as a CSV before running the tool.
 
 ## **💡 Additional Information**
-- Future Enhancements
+Future Enhancements:
 - Support for additional ontology formats (e.g., Turtle, JSON-LD).
-- More advanced matching techniques using deeper machine learning models.
+- More advanced matching techniques leveraging deeper machine learning models.
+- Comprehensive evaluation and benchmarking of the tool's performance and accuracy.
 - Enhanced visualization of ontology relationships.
+- Development of a user-friendly web application to simplify tool usage for non-technical users.
 
 ## **📜 License**
 This project is licensed under the APACHE License 2.0. See the [LICENSE](LICENSE) file for details.
