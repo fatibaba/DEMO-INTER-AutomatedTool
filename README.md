@@ -28,8 +28,9 @@ This repository provides two different environments for running the tool:
 
 | File | Description |
 |------|------------|
-| `JupyterNotebook_AutomatedTool.ipynb` | Jupyter Notebook version for running locally on your computer. |
 | `GoogleColab-Automated_tool.ipynb` | Google Colab version for running in the cloud without installation. |
+| `JupyterNotebook_AutomatedTool.ipynb` | Jupyter Notebook version for running locally on your computer. |
+
 
 ---
 
@@ -53,9 +54,11 @@ If you are using **Google Colab**, most dependencies are pre-installed.
 
 ## 🖥️ Running the Tool
 
-You can run the tool in **two different ways**, depending on whether you prefer Jupyter Notebook or Google Colab.
+You can run the tool in **two different ways**, depending on whether you prefer Google Colab or Jupyter Notebook.
 
-### **1️⃣ Running in Jupyter Notebook (Locally)**
+### **1️⃣ Running in Google Colab (Cloud)**
+
+### **2️⃣ Running in Jupyter Notebook (Locally)**
 
 #### **Open Jupyter Notebook:**  
 Launch Jupyter Notebook from your terminal by running:
