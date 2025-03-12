@@ -87,6 +87,9 @@ Compare class definitions using automated matching.
     - Provide one target class information (IRI, Label, and Definition) when prompted
       
   - The tool will extract class definitions, perform the matching, and display the results in a table.
+    
+**Note:** Running **Step 3 (Definition Matching)** in Google Colab requires a significant amount of computing resources (such as GPU/TPU and high memory). If you are using the free version of Colab, you might encounter performance limitations. For optimal performance, a paid Google Colab account (e.g., Colab Pro) is recommended.
+
 
 ### **2️⃣ Running in Jupyter Notebook (Locally)**
 
@@ -160,6 +163,6 @@ Confirm that your CSV file includes the correct headers: IRI, Label, and Definit
 This project is licensed under the APACHE License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## **💬 Contact**
-If you have any questions or need assistance, please reach out at [fatibaba@gmail.com].
+If you have any questions or need assistance, please reach out at [fatibaba@gmail.com] or open an issue on our GitHub repository.
 
 
