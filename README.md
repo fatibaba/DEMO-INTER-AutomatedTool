@@ -57,8 +57,17 @@ You can run the tool in **two different ways**, depending on whether you prefer 
 
 ### **1️⃣ Running in Jupyter Notebook (Locally)**
 
-#### **Step 1: Install Dependencies**
+#### **Open Jupyter Notebook:**  
+Launch Jupyter Notebook from your terminal by running:
+
+```bash
+jupyter notebook
+
+ **Step 1: Install Dependencies**
 If you haven’t installed the required packages, you can do so by running:
 
 ```bash
 pip install rdflib requests pandas sentence-transformers scikit-learn mlx-lm torch torchvision torchaudio
+
+
+
