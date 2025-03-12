@@ -49,6 +49,18 @@ If you are using **Google Colab**, most dependencies are pre-installed.
 You can run the tool in **two different ways**, depending on whether you prefer Google Colab or Jupyter Notebook.
 
 ### **1️⃣ Running in Google Colab (Cloud)**
+#### **Open Google Colab:**
+Visit [Google Colab]().
+
+Load the Notebook:
+Click File > Open Notebook, switch to the GitHub tab, and enter the repository URL. Alternatively, you can upload the file GoogleColab-Automated_tool.ipynb directly.
+
+Run the Notebook:
+Execute each cell sequentially:
+
+Choose the ontology input method (URL or file path).
+Provide the required CSV file and base IRI when prompted.
+View the interactive results table and use the provided download link to save the CSV file.
 
 ### **2️⃣ Running in Jupyter Notebook (Locally)**
 
