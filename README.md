@@ -134,6 +134,9 @@ Compare class definitions using automated matching.
   - Provide the path to the CSV file containing your target classes 
   - The tool will extract class definitions, perform the matching, and display the results in a table.
 
+**Note:** The script for **Step 3 (Class Definition Matching)** uses the `mlx-community/Meta-Llama-3-8B-Instruct-4bit` model, which is optimized for Mac environments. If you're not running on a Mac, you may encounter compatibility issues.
+
+
 ## **📊 Understanding the Output**
 After running the tool, you will see:
 
