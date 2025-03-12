@@ -57,17 +57,26 @@ You can run the tool in **two different ways**, depending on whether you prefer 
 
 ### **1️⃣ Running in Jupyter Notebook (Locally)**
 
-#### **Open Jupyter Notebook:**  
+ **Open Jupyter Notebook:**  
 Launch Jupyter Notebook from your terminal by running:
 
 ```bash
 jupyter notebook
 
- **Step 1: Install Dependencies**
+ **Install Dependencies**
 If you haven’t installed the required packages, you can do so by running:
 
 ```bash
 pip install rdflib requests pandas sentence-transformers scikit-learn mlx-lm torch torchvision torchaudio
 
 
+**Open the Notebook:**
+Open the file JupyterNotebook_AutomatedTool.ipynb[JupyterNotebook_AutomatedTool.ipynb] from the repository.
 
+**Follow the Instructions:**
+The notebook contains prompts with instructions to:
+
+Choose to load your ontology either via a URL or a local file path.
+Provide the path to the CSV file containing your target classes and the base IRI.
+The tool will extract class definitions, compare them using automated matching, and display the results in an interactive table.
+A download link for a CSV file containing the results will be provided at the end.
