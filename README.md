@@ -12,14 +12,6 @@ The tool follows a **three-step approach** to class matching:
 
 3️⃣ **Class Definition Matching:** Applies **natural language processing (NLP)** and a **quantized Llama 3 language model** to analyze class definitions, enabling detection of semantically equivalent concepts even when labels differ.  
 
-### **Key Features**  
-
-This tool allows you to:
-- Load ontologies from **a URL** or **a local file**.
-- Extract **ontology class labels, definitions, and synonyms**.
-- Identify matches between two ontologies or between an ontology and a target class list.
-- Display results in a **structured table** and generate a **downloadable CSV file**.
-
 ---
 
 ## 📂 Repository Contents
@@ -90,5 +82,5 @@ For each step:
 
 - Choose to load your ontology either via a URL or a local file path.
 - Provide the path to the CSV file containing your target classes and the base IRI.
-- The tool will extract class definitions, perform the matching, and display the results in an interactive table.
+- The tool will extract class definitions, perform the matching, and display the results in a table.
 - A download link for a CSV file with the results will be provided at the end.
