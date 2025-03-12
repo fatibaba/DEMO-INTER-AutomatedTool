@@ -70,6 +70,8 @@ For steps 1&2:
 Compare class definitions using automated matching.
 
   For step 3:
+  - The Llama 3 language model used is accesed via Hugging Face so you will need a `read access token` (see [how to create one](https://huggingface.co/docs/hub/en/security-tokens))
+  - Provide your access token when prompted
   - Provide the ontology you wish to search through 
   - Choose to load the ontology file either via a URL or a local file path.
   - Provide the base IRI for the main ontology to be searched through.
