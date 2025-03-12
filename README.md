@@ -163,6 +163,6 @@ Confirm that your CSV file includes the correct headers: IRI, Label, and Definit
 This project is licensed under the APACHE License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## **💬 Contact**
-If you have any questions or need assistance, please reach out at [fatibaba@gmail.com] or open an issue on our GitHub repository.
+If you have any questions or need assistance, please reach out at [fatibaba@gmail.com] or open an [issue](https://github.com/fatibaba/DEMO-INTER-AutomatedTool/issues) on our GitHub repository.
 
 
